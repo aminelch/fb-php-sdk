@@ -11,6 +11,10 @@ class ComposerStaticInita24fc4988d5ae57cd424a4244968dd86
     );
 
     public static $prefixLengthsPsr4 = array (
+        'N' => 
+        array (
+            'Noodlehaus\\' => 11,
+        ),
         'F' => 
         array (
             'Facebook\\' => 9,
@@ -18,6 +22,10 @@ class ComposerStaticInita24fc4988d5ae57cd424a4244968dd86
     );
 
     public static $prefixDirsPsr4 = array (
+        'Noodlehaus\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hassankhan/config/src',
+        ),
         'Facebook\\' => 
         array (
             0 => __DIR__ . '/..' . '/facebook/php-sdk-v4/src/Facebook',
