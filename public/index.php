@@ -8,4 +8,7 @@ require '../vendor/autoload.php';
 
 $maClasse = new MaClasse();
 
+dump($maClasse);
+
+
 echo "<h2>".$maClasse->sayHello() ." </h2>";
